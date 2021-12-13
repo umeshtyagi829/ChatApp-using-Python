@@ -1,5 +1,3 @@
-# ChatApp-using-Python
-
 ## Requirements
 
 | Name | Version |
@@ -34,8 +32,8 @@
 | <a name="input_alb_name"></a> [alb\_name](#input\_alb\_name) | application load balancer name | `string` | `"umesh-alb"` | no |
 | <a name="input_azs"></a> [azs](#input\_azs) | availability zones for subnets | `list(string)` | n/a | yes |
 | <a name="input_db_name"></a> [db\_name](#input\_db\_name) | Database name | `string` | `"todo"` | no |
-| <a name="input_db_pass"></a> [db\_pass](#input\_db\_pass) | Database password | `string` | `"admin123"` | no |
-| <a name="input_db_username"></a> [db\_username](#input\_db\_username) | Database username | `string` | `"admin"` | no |
+| <a name="input_db_pass"></a> [db\_pass](#input\_db\_pass) | Database password | `string` | n/a | yes |
+| <a name="input_db_username"></a> [db\_username](#input\_db\_username) | Database username | `string` | n/a | yes |
 | <a name="input_instance_type"></a> [instance\_type](#input\_instance\_type) | instance type | `string` | `"t2.micro"` | no |
 | <a name="input_key_name"></a> [key\_name](#input\_key\_name) | key name | `string` | `"UmeshKey"` | no |
 | <a name="input_private_subnet_cidr"></a> [private\_subnet\_cidr](#input\_private\_subnet\_cidr) | private subnet cidr | `list(any)` | n/a | yes |
